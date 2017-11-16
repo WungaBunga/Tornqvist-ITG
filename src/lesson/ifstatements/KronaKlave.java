@@ -31,7 +31,7 @@ public class KronaKlave {
 		if (coinFlippValue == true && usersPick.equals("True")) {
 			
 			System.out.println("Good Pick!");
-		} else {
+		} else 	{
 			System.out.println("Bad Choice Son!");
 	}
 
