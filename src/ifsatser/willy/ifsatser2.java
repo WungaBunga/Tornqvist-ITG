@@ -23,11 +23,11 @@ public class ifsatser2 {
 		
 		if (userNumber > 8 && userNumber < 10 || userNumber > 33) {
 		
-		System.out.println("Good");
+		System.out.println("Bra");
 	
 	} else {
 		
-		System.out.println("Bad");
+		System.out.println("Dåligt");
 		
 	 		}	
 		}

@@ -7,10 +7,12 @@ public class KronaKlave {
 
 	private static Object usersPick;
 
+	
+	
 	public static void main(String[] args) {
         // Coinflip som genererar ett random tal, 1 eller 0.
 		Scanner usersGuess = new Scanner(System.in);
-		System.out.println("Select True or False");
+		System.out.println("Välj Krona eller Klave");
 		String userString = usersGuess.nextLine();
 		System.out.println(userString);
 
@@ -21,10 +23,10 @@ public class KronaKlave {
 		System.out.println(coinFlippValue);
 
 		if (coinFlippValue == true) {
-			System.out.println("Computer - True");
+			System.out.println("Computer - Krona");
 		} else {
 
-			System.out.println("Computer - False");
+			System.out.println("Computer - Klave");
 		}
 
 		
@@ -32,7 +34,7 @@ public class KronaKlave {
 			
 			System.out.println("Good Pick!");
 		} else 	{
-			System.out.println("Bad Choice Son!");
+			System.out.println("Bad Choice!");
 	}
 
 	}
