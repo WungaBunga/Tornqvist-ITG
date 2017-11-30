@@ -1,4 +1,4 @@
-package pictureLoader;
+package BilarAB;
 import java.awt.Color;
 import java.util.Random;
 
@@ -12,14 +12,19 @@ public class BilarAB {
 	
 private static void printBoard() {
 	JOptionPane.showMessageDialog(null, "Välkommen till Bilar AB", "Bilar AB", JOptionPane.INFORMATION_MESSAGE);
+	
 	String name = JOptionPane.showInputDialog("Vänligen skriv in den bilen du söker efter");
+	
 	JOptionPane.showMessageDialog(null, "Söker efter" +  name);
-	JOptionPane.showMessageDialog(null, "24 stycken till salu!");
-	/* Det kommer upp en pop-up ruta på din skärm där datorn frågar vad du heter, och du ska skriva in ditt namn och sen kommer det upp det namnet du skrev.
-	 */
+	
+	JOptionPane.showMessageDialog(null, "Vi hittade 24 stycken bilar i våran databas som matchade dina kriterier!");
+	
+	Random randomGenerator = new Random();
+	int bilarTillSalu = (int) randomGenerator.nextInt(500);
+	
 	for(int i=1; i<25; i++){
         System.out.println(": " + i);
 			}
-		}
+		}	
 	}
 

@@ -1,10 +1,3 @@
-/** 2. Write Java program to allow the user to input his/her age. Then the program will show 
-*    if the person is eligible to vote. A person who is eligible to vote must be older than 
-*    or equal to 18 years old. 
-*/
-
-
-
 package ifsatser.willy;
 
 import java.util.Scanner;
@@ -17,17 +10,17 @@ public class ifsatser3 {
 			
 		Scanner userScanner = new Scanner(System.in);
 		
-		System.out.println("Hur gammal är du?");
+		System.out.println("Vänligen skriv in din ålder! Är du under 20 får du ej köpa våra produkter!");
 		
 		int userNumber = userScanner.nextInt();
 		
-		if (userNumber == 18 || userNumber > 18) {
+		if (userNumber == 20 || userNumber > 20 ) {
 		
-		System.out.println("Du får rösta!");
+		System.out.println("Tack! Välkommen till Systembolaget!");
 			
 	} else {
 		
-		System.out.println("Du får ej rösta");
+		System.out.println("Du får ej handla på Systembolaget!");
 		
 	 		}	
 		}
